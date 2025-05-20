@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.div-1 {
+    display: flex;
+    background-color: navy;
+    height: 250px;
+    width: 100%;
+    align-items: center;
+    color: white;
+}
+
+.div-1-L {
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    width: 40%;
+    align-items:flex-start;
+    margin-left: 120px;
+}
+
+.div-1-R {
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    width: 40%;
+    align-items:flex-start;
+    margin-right: 120px;
+}

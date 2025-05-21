@@ -63,23 +63,6 @@ img {
     display: flex;
 }
 
-.blue-box {
-    background-color: navy;
-    height: 200px;
-    width: 200px;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-}
-
-/*
-.white-box {
-    background-color: red;
-    height: 90px;
-    width: 90px;
-} 
-*/
-
 .div-2b-1, .div-2b-2, .div-2b-3, .div-2b-4 {
     display: flex;
     flex-direction: column;
@@ -90,6 +73,23 @@ img {
     width: 200px;
     justify-content: flex-end;
 }
+
+.blue-box {
+    background-color: navy;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#white-box {
+    background-color: white;
+    height: 175px;
+    width: 193px;
+
+} 
+
 
 /* SECTION THREE */
 

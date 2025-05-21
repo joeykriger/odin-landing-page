@@ -8,7 +8,7 @@ body {
 .div-1 {
     display: flex;
     background-color: navy;
-    height: 250px;
+    height: 400px;
     width: 100%;
     align-items: center;
     color: white;
@@ -18,22 +18,36 @@ body {
     display: flex;
     flex-direction: column;
     height: 250px;
-    width: 40%;
+    width: 50%;
     align-items:flex-start;
     margin-left: 120px;
 }
 
 .div-1-R {
+    height: 250px;
+    width: 50%;
+    margin-right: 120px;
     display: flex;
     flex-direction: column;
-    height: 250px;
-    width: 40%;
     align-items: flex-end;
-    margin-right: 120px;
+}
+
+.div-1-R1 {
+    display: flex;
+    
+}
+
+.div-1-R2 {
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
 
 img {
-    max-width: 25%;
+    width: 250px;
 }
 
 /* SECTION TWO */
@@ -50,7 +64,7 @@ img {
 }
 
 .blue-box {
-    background-color: blue;
+    background-color: navy;
     height: 200px;
     width: 200px;
     display: flex;
@@ -81,7 +95,7 @@ img {
 
 .div-3 {
     display: flex;
-    background-color: gray;
+    background-color: lightgray;
     height: 250px;
     width: 100%;
     flex-direction: column;
@@ -117,7 +131,7 @@ img {
     justify-content: center;
     height: 150px;
     width: 600px;
-    background-color: blue;
+    background-color: navy;
 }
 
 .div-4-2 {

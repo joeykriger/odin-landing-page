@@ -148,3 +148,16 @@ img {
     height: 50px;
 
 }
+
+/* SECTION FIVE */
+
+.div-5 {
+    background-color: navy;
+    color: white;
+    height: 80px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

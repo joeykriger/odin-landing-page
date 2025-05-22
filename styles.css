@@ -8,11 +8,11 @@ body {
 
 .div-1 {
     display: flex;
-    background-color: navy;
-    height: 400px;
+    background-color: #1F2937;
+    height: 300px;
     width: 100%;
-    align-items: center;
     color: white;
+    padding: 15px;
 }
 
 .div-1-L {
@@ -30,25 +30,50 @@ body {
     margin-right: 120px;
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    justify-content: space-between;
 }
 
 .div-1-R1 {
-    display: flex;
-    
+   display: flex;
+   justify-content: flex-end;
+   gap: 20px;
 }
 
 .div-1-R2 {
-    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-1 {
+    font: 24px #F9FAF8;
+    font-weight: 900;
+}
+
+#head {
+    font: 18px;
+    color: #E5E7EB;
 }
 
 a {
     text-decoration: none;
-    color: white;
+    font: 18px;
+    color: #E5E7EB;
 }
 
 img {
-    width: 250px;
+    width: 300px;
+}
+
+h1 {
+    font: 48px #F9FAF8;
+    font-weight: 900;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 5px;
+    font-weight: 700;
 }
 
 /* SECTION TWO */
@@ -152,11 +177,10 @@ img {
 /* SECTION FIVE */
 
 .div-5 {
-    background-color: navy;
+    background-color: #1F2937;
     color: white;
     height: 80px;
     width: 100%;
-    text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;

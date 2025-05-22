@@ -162,7 +162,6 @@ button {
     height: 250px;
     display: flex;
     align-items: center;
-
 }
 
 .div-4-1 {
@@ -171,6 +170,7 @@ button {
     height: 150px;
     width: 900px;
     background-color: #1F2937;
+    border-radius: 8px;
 }
 
 .div-4-2 {
@@ -187,8 +187,9 @@ h4 {
 
 .div-4-3 {
     display: flex;
-    align-content: center;
     margin: 30px;
+    align-items: flex-end;
+    height: 80px;
 }
 
 /* SECTION FIVE */

@@ -84,7 +84,6 @@ button {
 
 .div-2 {
     display: flex;
-    justify-content: center;
     flex-direction: column;
     align-items: center;
 }
@@ -96,28 +95,28 @@ button {
 .div-2b-1, .div-2b-2, .div-2b-3, .div-2b-4 {
     display: flex;
     flex-direction: column;
-    align-items: center; 
-    text-wrap: auto;
-    margin: 20px;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
     height: 250px;
     width: 200px;
-    justify-content: flex-end;
 }
 
 .blue-box {
-    background-color: navy;
-    height: 200px;
-    width: 200px;
+    background-color: #3882F6;
+    height: 150px;
+    width: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 8px;
 }
 
 #white-box {
     background-color: white;
-    height: 175px;
-    width: 193px;
-
+    height: 145px;
+    width: 145px;
+    border-radius: 5px;
 } 
 
 
@@ -126,7 +125,7 @@ button {
 .div-3 {
     display: flex;
     background-color: lightgray;
-    height: 250px;
+    height: 300px;
     width: 100%;
     flex-direction: column;
     justify-content: center;
@@ -150,7 +149,7 @@ button {
 /* SECTION FOUR */
 
 .div-4 {
-    height: 300px;
+    height: 250px;
     display: flex;
     align-items: center;
 

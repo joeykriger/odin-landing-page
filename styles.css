@@ -2,6 +2,13 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100dvh; /* dvh accounts for mobile address bars */
+}
+
+main {
+    flex-grow: 1; /* keeps footer on bottom of page */
 }
 
 /* SECTION ONE */

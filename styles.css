@@ -127,6 +127,11 @@ button {
     border-radius: 5px;
 } 
 
+#small-image {
+    width: 145px;
+    height: 145px;
+    border-radius: 5px;
+}
 
 /* SECTION THREE */
 
